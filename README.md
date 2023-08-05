@@ -24,5 +24,5 @@ npm i -g eslint-plugin-tailwindcss eslint
 Start the development server on `http://localhost:3000`:
 
 ```bash
-yarn dev
+pnpm dev
 ```
