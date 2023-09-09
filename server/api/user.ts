@@ -1,7 +1,7 @@
-import { db } from '~~/db';
-import { users } from '~~/db/schema';
+import { db } from '~~/db'
+import { users } from '~~/db/schema'
 
 export default defineEventHandler(async (_event) => {
-  const result = await db.select().from(users);
-  return result;
-});
+  const result = await db.select().from(users)
+  return result
+})

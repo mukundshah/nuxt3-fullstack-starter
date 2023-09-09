@@ -1,7 +1,7 @@
-import postgres from 'postgres';
-import { drizzle } from 'drizzle-orm/postgres-js';
+import postgres from 'postgres'
+import { drizzle } from 'drizzle-orm/postgres-js'
 
-import type { PostgresJsDatabase } from 'drizzle-orm/postgres-js';
+import type { PostgresJsDatabase } from 'drizzle-orm/postgres-js'
 
 // TODO: use environment variables
 // TODO: https://env.t3.gg/docs/nuxt
@@ -14,4 +14,4 @@ export const db: PostgresJsDatabase = drizzle(
     username: 'postgres',
     password: 'postgres',
   }),
-);
+)

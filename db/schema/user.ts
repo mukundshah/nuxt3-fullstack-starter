@@ -1,4 +1,4 @@
-import { pgTable, serial, uniqueIndex, varchar } from 'drizzle-orm/pg-core';
+import { pgTable, serial, uniqueIndex, varchar } from 'drizzle-orm/pg-core'
 
 export const users = pgTable(
   'users',
@@ -9,6 +9,6 @@ export const users = pgTable(
   (users) => {
     return {
       nameIndex: uniqueIndex('name_idx').on(users.name),
-    };
+    }
   },
-);
+)

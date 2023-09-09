@@ -1,3 +1,9 @@
+<script setup lang="ts">
+import { useFetch } from '#app'
+
+const { data } = useFetch('api/user')
+</script>
+
 <template>
   <div>
     <h1>Home</h1>
