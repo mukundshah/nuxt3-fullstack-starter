@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   modules: [
-    '@nuxthq/ui',
+    '@nuxt/ui',
     '@nuxtjs/eslint-module',
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
